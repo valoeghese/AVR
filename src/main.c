@@ -2,7 +2,7 @@
 #include <util/delay.h>
 #include <stdint.h>
 
-#include "souseful.h"
+#include "drivers/spi.h"
 
 #define LED_PIN PB5
 

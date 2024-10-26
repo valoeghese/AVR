@@ -11,7 +11,7 @@ OUTPUT = $(OUTPUT_DIR)/$(NAME)
 
 # Compiler and flags
 CC = avr-gcc
-CFLAGS = -mmcu=$(MCU) -Os -DF_CPU=16000000UL
+CFLAGS = -mmcu=$(MCU) -Os -DF_CPU=16000000UL -DSPI_PORT=PORTD
 
 # Linker flags
 LDFLAGS = #-lm
